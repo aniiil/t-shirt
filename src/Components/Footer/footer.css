@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.foot {
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+.con-foot{
+  padding: 0 12px;
+}
+.foot-text{
+  display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+text-align: center;
+color: white;
+}
+.foot-data{
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px
+  
+}

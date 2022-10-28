@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.part {
+  padding: 80px 0;
+  justify-content: center !important;
+  display: flex !important;
+}
+.container {
+  padding: 0px;
+}
+.row-part{
+  justify-content: center;
+}
+
+.part-item {
+  padding: 32px;
+  background-color: #eeeeee;
+  border-radius: 32px;
+  text-align: center;
+}
+.part-item:hover {
+  transition: all 0.5s ease;
+  transform: scale(1.03) rotate(-2deg);
+  box-shadow: 0 50px 50px -25px rgba(0, 0, 0, 0.3);
+}
+.img-part {
+  margin: auto;
+  width: 140px;
+  padding-bottom: 32px;
+}
+
+.part-content-head {
+  font-size: 35px;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 16px;
+  text-align: center;
+}
+.part-content-text {
+  font-family: "Inter", sans-serif;
+  color: #696969;
+  margin-bottom: 32px;
+  font-size: 18px;
+  text-align: center;
+}
+.btn-part {
+  padding-top: 16px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+a.part-bnt {
+  background-color: #a8d741 !important;
+  color: #000;
+  padding: 9.5px 19px;
+  align-items: center;
+  display: flex;
+  font-size: 20px;
+  border-radius: 100px;
+  border: 2px solid black;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+}
+a.part-bnt:hover {
+  transition: all 0.5s ease;
+  background-color: #ffffff !important;
+  box-shadow: 0 15px 25px -10px rgba(0, 0, 0, 0.5) !important;
+  transform: scale(1.1) rotateX(1deg) rotateY(0deg) rotateZ(4deg);
+  color: #000000 !important;
+}
+
+/* ===============Client CSS==================== */
+.client {
+  padding: 96px 0;
+  display: flex;
+  justify-content: center;
+}
+.row-client {
+  align-items: center;
+  background: #eeeeee;
+  transition: all 0.3s;
+  padding: 48px;
+  border-radius: 32px;
+  margin: 0;
+}
+.row-client:hover {
+  transition: all 0.5s ease;
+  transform: scale(1.03) rotate(-2deg);
+  box-shadow: 0 50px 50px -25px rgba(0, 0, 0, 0.3);
+}
+
+.client-para {
+  color: #353535;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  text-align: left;
+}
+.client-head {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 32px;
+}
+.client-btn {
+  margin-top: 32px;
+  text-align: left;
+}
+a.bnt-cl {
+  align-items: center;
+  background-color: #a8d741 !important;
+  border: 2px solid black;
+  border-radius: 100px;
+  padding: 10px 20px;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+.icon-cl {
+  font-size: 27px;
+  padding: 5px 0;
+}
+
+.bnt-cl:hover {
+  background-color: white !important;
+  box-shadow: 0 27px 30px -20px #000000 !important;
+  transform: scale(1.1) rotateX(1deg) rotateY(0deg) rotateZ(4deg);
+
+  display: inline-flex;
+  transition: all 0.5s ease;
+}
+.ic-bnt {
+  font-size: 40px;
+  padding-left: 10px;
+}
+.client-img {
+  border-radius: 16px;
+}
+
+/* ================================= */
+@media screen and (max-width: 992px) {
+  .part-item {
+    margin-top: 15px;
+  }
+  .part,
+  .client {
+    padding-top: 70px;
+    padding-bottom: 25px;
+  }
+  .client-img {
+    margin-top: 55px;
+  }
+}
+@media screen and (max-width: 362px) {
+.bnt-cl {
+  font-size: 15px !important;
+}
+}
+@media screen and (max-width: 576px) {
+ .con-cli{
+    margin: 10px !important;
+  }
+  .row-client{
+    padding: 0;
+  }
+  }
